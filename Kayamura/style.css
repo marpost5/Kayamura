@@ -1,0 +1,107 @@
+body{
+    position: relative;
+    height: 1200px;
+}
+a{
+    color: gray;
+}
+p{
+    color: gray;
+}
+h3{
+    color: orange;
+}
+#header{
+    background-image: url("images/bg-header.jpg");
+}
+#header img{
+    margin-left: 340px;
+}
+#header ul{
+    position: absolute;
+    margin-left: 650px;
+    margin-top: -50px;
+}
+#header a{
+    text-decoration: none;
+}
+#header li{
+    display: inline;
+    padding: 25px;
+}
+#header li:first-of-type{
+    background-color: rgb(95, 228, 184);
+    height: 100%;
+    padding-top: 45px;
+    padding-bottom: 32px;
+}
+.blog{
+    position: absolute;
+}
+.blog:first-of-type img{
+    margin-left: 250px;
+    margin-top: 70px;
+}
+.blog:first-of-type div{
+ margin-left: 750px;
+ margin-top: -350px;
+}
+.blog div:nth-of-type(1) img{
+    margin-left: -5px;
+}
+.blog div{
+    text-align: right;
+}
+
+.article{
+    position: absolute;
+}
+.article div{
+    margin-top: 400px;
+    margin-left: 300px;
+}
+
+.article img{
+    margin-left: 800px;
+    margin-top: -300px;
+}
+.news{
+    position: absolute;
+}
+.news img{
+    margin-top: 650px;
+    margin-left: 350px;
+}
+.news div{
+    margin-left: 700px;
+    margin-top: -270px;
+    text-align: right;
+}
+.news div h3{
+    margin-right: 200px;
+}
+.news div p{
+    width: 70%;
+}
+#footer{
+    background-image: url("images/bg-footer.png");
+    position: absolute;
+    margin-top: 1000px;
+    width: 100%;
+    height: 130px;
+}
+#footer div p{
+    margin-left: 300px;
+}
+.connect{
+    background-image: url("images/icons.png");
+    background-repeat: no-repeat;
+    margin-left: 800px;
+    margin-bottom: 50px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 30px;
+    margin-left: 1050px;
+    margin-top: -40px;
+}
